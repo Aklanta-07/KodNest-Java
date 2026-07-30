@@ -1,5 +1,12 @@
+
 public class WelcomeToJava {
-    public static void main(String[] args) {
-       //Write your code here
-    }
+  public static void main(String[] args) {
+    WelcomeToJava welcome = new WelcomeToJava();
+    welcome.showMessage();
+  }
+
+  public void showMessage() {
+    System.out.println("Welcome to Java");
+  }
+
 }
