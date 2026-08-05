@@ -7,12 +7,12 @@ case 2:
 case 3:
 case 4:
 case 5:
-System.out.println("Learning Day");
-break;
+           System.out.println("Learning Day");
+           break;
 case 6:
 case 7:
-System.out.println("Revision Day");
-break;
+          System.out.println("Revision Day");
+          break;
 default:
 System.out.println("INVALID day");
 }
