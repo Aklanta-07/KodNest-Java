@@ -5,7 +5,7 @@ public class ContinueInNestedFor {
                 if(j == 5) {
                     continue;
                 }
-                System.out.println(i + j);
+                System.out.println(i +" "+j);
             }
         }
     }

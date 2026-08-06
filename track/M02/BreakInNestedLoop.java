@@ -5,7 +5,7 @@ public class BreakInNestedLoop {
                 if(j == 5) {
                     break;
                 }
-                System.out.println(i + j);
+                System.out.println(i +" "+j);
             }
         }
     }
