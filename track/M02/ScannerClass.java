@@ -37,6 +37,18 @@ public class ScannerClass {
         boolean bln = scanner.nextBoolean();
         System.out.println("Boolean value: " + bln);
 
+        System.out.println("Enter your gender");
+        char gender = scanner.next().charAt(0);
+        System.out.println("Gender: " + gender);
+
+        System.out.println("Enter your full name");
+        String fullName = scanner.next();
+        System.out.println("Full Name: " + fullName);
+
+        System.out.println("Enter your height");
+        float height = scanner.nextFloat();
+        System.out.println("Height: " + height);
+
         scanner.close();
     }   
 }
