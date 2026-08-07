@@ -1,3 +1,4 @@
+package track.PracticeSession.M01;
 public class TypeCast {
       private static boolean dailyTarget;
       public static void main(String[] args) {
