@@ -5,6 +5,8 @@ public class StudentDemo {
     int age;
     int height;
 
+
+
     public void input(String name, int age, int height) {
         this.name = name;
         this.age = age;
