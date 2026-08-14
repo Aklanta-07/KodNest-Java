@@ -1,4 +1,4 @@
-public class Student {
+public class Students {
     // Instance variables
     String name;
     String courseName;

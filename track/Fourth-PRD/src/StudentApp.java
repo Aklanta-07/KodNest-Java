@@ -6,7 +6,7 @@ public class StudentApp {
         Scanner scanner = new Scanner(System.in);
 
         // Create one Student object
-        Student student = new Student();
+        Students student = new Students();
 
         // Accept Student Details
         System.out.println("Enter Student Name:");
