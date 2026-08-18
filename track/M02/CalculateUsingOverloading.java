@@ -10,7 +10,7 @@ class ResultCalculator {
     }
 }
 
-class Main {
+class MainZero {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

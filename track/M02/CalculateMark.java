@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Student {
+class StudentThree {
     String name;
 
     void setName(String name) {
@@ -20,7 +20,7 @@ class Student {
     }
 }
 
-class Main {
+class MainTen {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,7 +28,7 @@ class Main {
         int first = scanner.nextInt();
         int second = scanner.nextInt();
 
-        Student student = new Student();
+        StudentThree student = new StudentThree();
         student.setName(name);
         student.showName();
         student.showScore(first);

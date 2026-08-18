@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class Student {
+ public class Student {
     int id;
     String name;
     String course;
     double javaScore;
 }
 
-class Main {
+class MainThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         

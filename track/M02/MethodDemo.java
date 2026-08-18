@@ -18,7 +18,7 @@ class MethodDemo {
     }
 }
 
-class Main {
+class MainTwelve {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

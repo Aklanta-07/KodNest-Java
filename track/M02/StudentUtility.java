@@ -21,7 +21,7 @@ class StudentUtility {
     }
 }
 
-class Main {
+class MainEleven {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         StudentUtility utility = new StudentUtility();

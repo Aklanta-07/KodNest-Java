@@ -2,11 +2,11 @@ package constructor;
 
 import java.util.Scanner;
 
-class Employee {
+class EmployeeOne {
     String name;
     String role;
 
-    Employee() {
+    EmployeeOne() {
         role = "Trainee";
     }
 
@@ -22,7 +22,7 @@ public class EmployeProfile {
 
         String employeeName = scanner.next();
 
-        Employee employee = new Employee();
+        EmployeeOne employee = new EmployeeOne();
         employee.name = employeeName;
         employee.displayProfile();
 

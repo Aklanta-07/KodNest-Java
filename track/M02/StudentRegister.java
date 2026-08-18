@@ -1,22 +1,22 @@
 import java.util.Scanner;
 
-class Student {
+public class StudentRegister {
     int registrationId;
     String name;
     double attendancePercentage;
 }
 
-public class StudentRegistration {
+ class StudentRegistration {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        Student stud1 = createStudent(scanner);
-        Student stud2 = createStudent(scanner);
+        StudentRegister stud1 = createStudent(scanner);
+        StudentRegister stud2 = createStudent(scanner);
 
         int selectedId = scanner.nextInt();
         double newAttendance = scanner.nextDouble();
 
-        Student selectedStudent = null;
+        StudentRegister selectedStudent = null;
 
         if (stud1.registrationId == selectedId) {
             selectedStudent = stud1;
@@ -35,15 +35,15 @@ public class StudentRegistration {
         print(stud2);
     }
 
-    private static Student createStudent(Scanner scanner) {
-        Student student = new Student();
+    private static StudentRegister createStudent(Scanner scanner) {
+        StudentRegister student = new StudentRegister();
         student.registrationId = scanner.nextInt();
         student.name = scanner.next();
         student.attendancePercentage = scanner.nextDouble();
         return student;
     }
 
-    private static void print(Student student) {
+    private static void print(StudentRegister student) {
         System.out.println(student.registrationId + " - " + student.name + " - " + student.attendancePercentage + "%");
     }
 }

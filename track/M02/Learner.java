@@ -6,7 +6,7 @@ public class Learner {
     int javaScore;
 }
 
- class Main {
+ class MainLearner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

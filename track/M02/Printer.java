@@ -10,7 +10,7 @@ public class Printer {
     }
 }
 
-class Main {
+class MainTwenty {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
