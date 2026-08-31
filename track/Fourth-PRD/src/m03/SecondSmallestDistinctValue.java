@@ -22,12 +22,12 @@ public class SecondSmallestDistinctValue {
         int smallest = Integer.MAX_VALUE;
         int secondSmallest = Integer.MAX_VALUE;
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] < smallest) {
+        for (int j : arr) {
+            if (j < smallest) {
                 secondSmallest = smallest;
-                smallest = arr[i];
-            } else if (arr[i] > smallest && arr[i] < secondSmallest) {
-                secondSmallest = arr[i];
+                smallest = j;
+            } else if (j > smallest && j < secondSmallest) {
+                secondSmallest = j;
             }
         }
 
